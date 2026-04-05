@@ -48,56 +48,6 @@ In this project, I practiced:
 
 ## 📁 Project Structure
 
-# ⚛️ React Learning Project (Meal / Product App)
-
-This is a simple React project where I practiced and learned core React concepts by building a small meal/product-based UI.
-
----
-
-## 🎯 Purpose of This Project
-
-The main goal of this project is to understand and practice fundamental React concepts, not to build a production-level application.
-
----
-
-## 🧠 What I Learned
-
-In this project, I practiced:
-
-* React state management (`useState`)
-* Side effects with `useEffect`
-* Props (parent → child data passing)
-* Lifting state up (child → parent communication)
-* Handling data flow between components
-* Basic event handling (button click)
-* Image import and usage in React
-* Simple notification system (Toastify)
-* Rendering dynamic data from API
-* Basic component structure
-
----
-
-## 🛒 Features
-
-* Display meals/products from an API
-* Show product image and title
-* "Buy Now" button functionality
-* Add to cart / simple interaction system
-* Basic UI using CSS
-
----
-
-## 🛠️ Technologies Used
-
-* React
-* Vite
-* CSS
-* React Toastify
-
----
-
-## 📁 Project Structure
-
 
 
 ```bash id="1v7f9w"
