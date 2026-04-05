@@ -3,6 +3,7 @@ import './MealCart.css'
 import FoodCart from './FoodCart';
 import { useState } from 'react';
 import Addcart from '../Addcart/Addcart';
+import { ToastContainer, toast } from 'react-toastify';
 
 const MealCart = ({ meals }) => {
 
@@ -17,7 +18,7 @@ const MealCart = ({ meals }) => {
     const handleOrder = ()=>{
         
             setCart([]);
-            alert("Your order is placed successfully");
+            toast("Order Placed Successfully");
 
     }
 
@@ -45,7 +46,7 @@ const MealCart = ({ meals }) => {
         <button onClick={handleOrder}>Order Now</button>
     </div>
      
-
+ <ToastContainer />
 </div>
            
            
