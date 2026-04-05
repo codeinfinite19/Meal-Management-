@@ -1,0 +1,21 @@
+.card-parent{
+    display: flex;
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+.left-cart{
+     display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+
+}
+
+.right-cart{
+    margin-left: 50px;
+    flex: 2;
+    background-color: #6a8883;
+    padding: 20px;
+    border-radius: 10px;
+}

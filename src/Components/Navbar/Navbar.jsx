@@ -1,4 +1,6 @@
 import React from 'react';
+import './Navbar.css';
+import logo from '../../assets/meal_logo.png';
 
 const Navbar = () => {
     return (
@@ -6,12 +8,12 @@ const Navbar = () => {
 
             <nav className="navbar">
 
-                <div>
-                    <img src="" alt="" />
+                <div className='logo'>
+                    <img src={logo} alt="" />
                     <h1>Meal Hub</h1>
                 </div>
 
-                <div>
+                <div className='right-nav'>
                     <ul>
                         <li>Home</li>
                         <li>Meals</li>

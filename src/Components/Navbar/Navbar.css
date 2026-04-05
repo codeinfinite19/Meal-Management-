@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    text-align: center;
+    box-shadow: rgb(89, 89, 88) 0px 1px 5px;
+    
+    
+}
+
+.right-nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.right-nav ul li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+
